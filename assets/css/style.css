@@ -1,19 +1,14 @@
-*{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
 header{
     background-color: #ffffff;
     overflow: auto;
     width: 100%;
-    margin-top: -30px;
-    margin-bottom: -22px;
 }
 
 nav{
     float: right;
-    padding: 50px;
+    padding: 25px 25px 20px 25px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 #navbar{
@@ -21,12 +16,33 @@ nav{
     margin: auto;
 }
 
+a:link{
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover{
+    color: hotpink;
+}
+
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 25px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ddd;
+    padding: 0;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -58,6 +74,8 @@ footer{
 p{
     margin: 30px;
     line-height: 1.5em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 #name{
@@ -68,6 +86,8 @@ p{
 
 #page-name{
     color: #4aaaa5;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 #pic{
@@ -78,5 +98,6 @@ p{
 #copyright{
     color: #dddddd;
     text-align: center;
-    padding: 25px;
+    padding: 15px;
+    font-size: small;
 }
