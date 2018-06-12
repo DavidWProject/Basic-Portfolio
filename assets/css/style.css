@@ -79,8 +79,8 @@ section{
     background-image: url(../images/bkg.png);
     overflow: auto;
     width: 100%;
+    height: 90%;
     border-top: solid 2px #ccc;
-    border-bottom: solid 6px #4aaaa5;
 }
 
 #content{
@@ -97,7 +97,10 @@ section{
 
 footer{
     background-color: #666666;
-    margin-top: -30px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: solid 6px #4aaaa5;
 }
 
 p{
@@ -128,6 +131,25 @@ p{
 #copyright{
     color: #dddddd;
     text-align: center;
-    padding: 15px;
+    padding: 0px;
     font-size: small;
+}
+
+.portfolio-item{
+    margin-right: 35px;
+    float: left;
+}
+
+.item-label{
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 60px;
+}
+
+#portfolio{
+    height: 100%;
 }
